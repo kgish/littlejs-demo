@@ -6,7 +6,7 @@ A simple demo of the LittleJS game engine using TypeScript.
 
 The [LittleJS](https://killedbyapixel.github.io/LittleJS/docs/) game engine is written by [Frank Force](https://frankforce.com), and it is a super lightweight 2D JavaScript game engine with fast WebGL rendering.
 
-I have been playing around with it and am so impressed that I decided to tweak it a bit. Here is an improved version of the LittleJS Starter Project emboldened even more by TypeScript and Parcel.
+I have been playing around with it and am so impressed that I decided to tweak it a bit. Here is a slightly modified version of the LittleJS Starter Project emboldened by TypeScript, Parcel abd other goodies.
 
 Hope you like it.
 
