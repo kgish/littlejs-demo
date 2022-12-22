@@ -1,0 +1,38 @@
+{
+    "name": "littlejs-demo",
+    "version": "0.0.1",
+    "description": "A simple demo of the LittleJS game engine",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kgish/littlejs-demo.git"
+    },
+    "main": "index.js",
+    "scripts": {
+        "dev": "parcel index.html",
+        "build": "parcel build dist",
+        "lint": "eslint . --ext .ts && stylelint  \"**/*.scss\"",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Kiffin Gish <kiffin.gish@planet.nl> (https://github.com/kgish)",
+    "license": "MIT",
+    "parcelCleanPaths": [
+        "dist"
+    ],
+    "staticFiles": {
+        "staticPath": "public",
+        "watcherGlob": "**"
+    },
+    "devDependencies": {
+        "@parcel/transformer-sass": "^2.8.2",
+        "@typescript-eslint/eslint-plugin": "^5.47.0",
+        "@typescript-eslint/parser": "^5.47.0",
+        "eslint": "^8.30.0",
+        "eslint-plugin-no-loops": "^0.3.0",
+        "parcel": "^2.8.2",
+        "parcel-plugin-clean-easy": "^1.0.2",
+        "parcel-plugin-static-files-copy": "^2.6.0",
+        "stylelint": "^14.16.0",
+        "stylelint-config-standard-scss": "^6.1.0",
+        "typescript": "^4.9.4"
+    }
+}
