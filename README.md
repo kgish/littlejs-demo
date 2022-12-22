@@ -1,10 +1,14 @@
-# littlejs-demo
+# LittleJS Demo (TypeScript)
 
 A simple demo of the LittleJS game engine using TypeScript.
 
 ## Introduction
 
-...
+The LittleJS game engine is a super lightweight 2D JavaScript game engine with fast WebGL rendering. 
+
+I have been playing around with it and am so impressed that I decided to tweak it a bit.
+
+Here is an improved version of the LittleJS Starter Project emboldened with TypeScript and Parcel, hope you like it.
 
 ![](images/screenshot.png)
 
@@ -44,7 +48,8 @@ yarn test
 
 ## References
 
-* [LittleJS]()
+* [LittleJS](https://killedbyapixel.github.io/LittleJS/docs/)
+* [LittleJS Starter Project](https://github.com/KilledByAPixel/LittleJS/blob/main/game.js)
 * [Parcel](https://parceljs.org)
 * [TypeScript](https://www.typescriptlang.org)
 * [EsLint](https://eslint.org)
