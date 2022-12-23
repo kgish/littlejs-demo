@@ -6,10 +6,9 @@
         "type": "git",
         "url": "https://github.com/kgish/littlejs-demo.git"
     },
-    "main": "index.js",
     "scripts": {
         "dev": "parcel index.html",
-        "build": "parcel build dist",
+        "build": "parcel build index.html",
         "lint": "eslint . --ext .ts && stylelint  \"**/*.scss\"",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
@@ -23,6 +22,7 @@
         "watcherGlob": "**"
     },
     "devDependencies": {
+        "@parcel/config-default": "^2.8.2",
         "@parcel/transformer-sass": "^2.8.2",
         "@typescript-eslint/eslint-plugin": "^5.47.0",
         "@typescript-eslint/parser": "^5.47.0",
